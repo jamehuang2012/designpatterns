@@ -22,7 +22,7 @@ TankLogProxy::TankLogProxy(Moveable *t) {
 }
 
 void TankLogProxy::move() {
-	cout << "start moveing ...." << endl;
+	cout << "start logging ...." << endl;
 	t->move();
-	cout << "stop moving ... " << endl;
+	cout << "stop logging... " << endl;
 }

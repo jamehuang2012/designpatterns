@@ -21,7 +21,7 @@ TankTimeProxy::~TankTimeProxy() {
 }
 
 void TankTimeProxy::move() {
-	cout << "start moving .... " << endl;
+	cout << "start time .... " << endl;
 	srand(time(NULL));
 	int iSelect = rand() % 1000 + 1;
 	usleep(iSelect* 10000);
